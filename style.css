@@ -1,0 +1,37 @@
+body {
+     display:flex;
+     background-color:blue;
+     }
+   
+   
+   #container {
+     border:10px solid black;
+     padding:2%;
+     margin:3% 30% 3%;
+     background-color:white;
+   }
+   
+   #title {
+     border-collapse: separate;
+     padding:2%;
+     margin:3% 15% 3% 20%;
+     background-color:white;
+   }
+   
+   .botones {
+     border:1px solid black;
+     padding:2%;
+     margin:3% 30% 3%;
+   }
+   
+   #edad{
+     border-collapse: separate;
+     padding:2%;
+     margin:3% 30% 3%;
+   }
+   
+   #rol{
+    border-collapse: separate;
+     padding:2%;
+     margin:3% 30% 3%;
+   }

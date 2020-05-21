@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="container">
+  <h1 id="title"> Fomulario interplanetario de AFIP</h1>
+  <p id ="description">Lo siguiente tiene validez legal y puede ser utilizado utilizado para gravar tus bienes en cualquier pais de la Union Aduanera Intergalactica Sudamericana.</p>
+   <!-Comienzo formulario->
+ <form action="" id="survey-form"> 
+   <!-Consulta nombre->
+    <div class="botones" id="grupo"> 
+      <label id="name-label" for="name"> Nombre</label>
+      <input type="text" name="name" id="name" class="form-control" placeholder="pone tu nombre" required="">
+    </div>
+   <!-Consulta mail->
+   <div class="botones" id=mail>
+      <label id="email-label" for="email">Email</label>
+      <input type="email" name="email" id="email" class="form-control" placeholder="pone tu mail"required>
+   </div>
+   <!-Consulta edad->
+   <div id=edad>
+      <label id="number-label" for="number">Edad en años o siglos</label>
+      <input type="number" min=18 max= 250 name="number" id="number" class="form-control" placeholder="edad" required>
+   </div>
+   <!-Desplegable rol->
+   <div id=rol>
+      <label id="dropdown" for="dropdown">Oficio</label>
+      <select name="tu rol" id="dropdown">
+        <option value="Estudiante">Pirata</option>
+        <option value="Trabajador">Minero</option>
+        <option value="Presidente">Soldado</option>
+     </select>
+   </div>
+   <!-Botones de recomendacion->
+   <div id=botones>
+     <p >¿Entendes la grabedad de el asunto?</p>
+     <label>
+       <input name="name" value="Si" type=radio checked>Si
+     </label>
+     
+     <label>
+       <input name="name" value="No" type=radio checked>No
+     </label>
+     
+     <label> 
+     <input name="name" value="Tal vez" type=radio checked>Tal vez
+     </label>
+   </div> 
+   <!-Feature checkboxes->
+   <div id="desplegable">   
+     <p>De encontrar una incongruencia con la realidad ¿como preferis morir?.</p>
+     <select name="feature" id="feature">
+       <option value="laser">Laser</option>
+       <option value="vacio"> Abandonado en el vacio</option>
+       <option value="devorado">Alimentando un Sarlacc</option>
+     </select>
+   </div>
+   <!-Mejorar checkboxes->
+   <div>
+     <p>¿A que Estados rendis tributo?</p>
+     <label>
+       <input name="UNCC" value="herreria" type="checkbox" class="input-checkbox"></imput> Union Federal Interestelar
+     </label>
+     <label>
+       <input name="Plomeria" value="plomeria" type="checkbox" class="input-checkbox"></imput> Federacion Interestelar de la Union
+     </label>
+     <input name="Electicidad" value="electicidad" type="checkbox" class="input-checkbox"></imput> Union de Uniones Unidas Federales
+     </label>  
+    </div>
+   <!-Comenta tu patrimonio->
+    <p>Comentanos tu patrimonio <strong>
+      COMPLETO SIN EXCEPCIONES
+      </strong> </p>
+    <div id= "patrimonio">
+      <textarea name="patrimonio" id="" cols="100" rows="10">           </textarea>
+   </div>
+    <!-Enviar->
+    <p>Presione enviar amable <del>esclavo</del> ciudadano.</p>
+    <div id="submit-form">
+    <button type="submit" id="submit">Enviar</button>
+    </div>
+    </div>
+  </form>
+  </div>
+</body>
+</html>
